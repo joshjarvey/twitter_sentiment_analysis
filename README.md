@@ -1,0 +1,2 @@
+# twitter_sentiment_analysis
+This project uses the Tweepy wrapper package to pull twitter data on a given subject using the twitter API, "cleans" the tweets by removing any URLs and applying a regular expression function to remove characters, and finally conducts sentiment analysis using the TextBlob package which is loaded into a dataframe. Sentiment values of 0 are "filtered out", and then a histogram of the data is plotted to display distribution visually so the summary can be easily interpreted. 
